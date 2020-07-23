@@ -1,0 +1,23 @@
+ElasticChartsXYBarLight View
+  ElasticChartsChart
+  width < 300
+  height < 300
+  theme light
+    ElasticChartsAxis
+    id y
+    title y
+    position left
+    fontSizeTick 10
+    fillTitle red
+    ElasticChartsAxis
+    id x
+    title x
+    position bottom
+    ElasticChartsBarSeries
+    id bars
+    name something
+    xScaleType ordinal
+    xAccessor x
+    yAccessors <
+    data <
+    color red

@@ -1,0 +1,11 @@
+BackAction View
+is together
+  ButtonIconSquare
+  marginTop 64
+  width 42
+  height 42
+  onClick <setFlowTo /App/Menu
+    ArrowLeft
+    width 20
+    height 20
+    stroke rgba(255,255,255,0.8)

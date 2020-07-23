@@ -1,0 +1,45 @@
+ButtonChoiceLabelBig View
+  Horizontal
+  alignSelf < auto
+  alignItems center
+  borderBottomLeftRadius 6
+  borderBottomRightRadius 6
+  borderTopLeftRadius 6
+  borderTopRightRadius 6
+  cursor pointer
+  marginLeft < 0
+  marginRight < 0
+  marginTop < 4
+  onClick <
+  opacity 1
+  paddingBottom 0
+  paddingLeft 16
+  paddingRight 16
+  paddingTop 0
+  height < 50
+  width < 100%
+  backgroundColor < rgba(255, 255, 255, 0.05)
+  borderWidth 1
+  borderColor < rgba(255,255,255,0)
+  borderStyle solid
+  when <isHovered
+  backgroundColor rgba(255,255,255,0.1) linear duration 100
+  when <isSelected
+  borderColor rgba(255,255,255,0.2) linear duration 100
+  backgroundColor rgba(255,255,255,0.1) linear duration 100
+    Text
+    color rgba(255,255,255,0.8)
+    fontFamily WonderUnitSans
+    fontSize < 16
+    fontWeight 300
+    letterSpacing 0.5
+    marginRight auto
+    text < Default text
+    when <isSelected
+    color rgba(255,255,255,1) linear duration 100
+    ArrowRight
+    width 10
+    height 10
+    stroke < #808184
+    when <isHovered
+    stroke #ffffff linear

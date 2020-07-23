@@ -1,0 +1,12 @@
+Label View
+  Text
+  color < rgba(255,255,255,0.8)
+  fontFamily WonderUnitSans
+  fontSize < 13
+  fontWeight 300
+  letterSpacing 0.5
+  text < Default text
+  hyphens < none
+  textOverflow ellipsis
+  whiteSpace nowrap
+  overflowX hidden

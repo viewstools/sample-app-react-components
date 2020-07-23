@@ -1,0 +1,12 @@
+Subtitle View
+  Text
+  text < Stories
+  fontFamily WonderUnitSans
+  fontSize < 20
+  fontWeight 300
+  color < #bfbfbf
+  letterSpacing 0.1
+  marginTop < 0
+  marginBottom < 0
+  marginLeft < 0
+  marginRight < 0

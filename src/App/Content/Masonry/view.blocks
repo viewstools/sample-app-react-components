@@ -1,0 +1,19 @@
+Masonry View
+is together
+  Vertical
+  flexGrow 1
+  flexShrink 1
+  flexBasis auto
+  alignItems center
+  paddingLeft 32
+  paddingRight 32
+  # justifyContent center
+    Masonry
+    gap 32
+    cardWidth 380
+      CardExample
+      CardExample
+      CardExample
+      CardExample
+      CardExample
+    BackAction

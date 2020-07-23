@@ -1,0 +1,14 @@
+GoogleCharts View
+is together
+  Vertical
+  flexGrow 1
+  flexShrink 1
+  flexBasis auto
+  alignItems center
+  # justifyContent center
+    GoogleChart
+    chartType ScatterChart
+    data <
+    width 600px
+    height 300px
+    BackAction

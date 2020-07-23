@@ -1,0 +1,14 @@
+HowToUseAction View
+is together
+  ButtonTextIcon
+  alignSelf center
+  fontSize 16
+  marginTop 32
+  text How to use
+  onClick <setFlowTo /App/Content/HowToUse
+    ArrowDownSquare
+    width 16
+    height 16
+    stroke rgb(0, 162, 255)
+    when <isHovered
+    stroke rgb(0, 191, 255)

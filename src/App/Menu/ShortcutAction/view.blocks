@@ -1,0 +1,12 @@
+ShortcutAction View
+is together
+  Vertical
+  opacity 1
+  translateY 0
+  when <isBefore
+  opacity 0 easeOut
+  translateY 8 easeOut delay 50
+    ButtonChoiceLabelBig
+    onClick <setFlowTo /App/Content/Shortcut
+    text Keyboard Shortcuts
+    

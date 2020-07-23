@@ -1,0 +1,13 @@
+Spinner View
+is together
+  Vertical
+  flexGrow 1
+  flexShrink 1
+  flexBasis auto
+  alignItems center
+  # justifyContent center
+    Spinner
+    type ClipLoader
+    size 100
+    color #19d163
+    BackAction

@@ -1,0 +1,15 @@
+HowToUse View
+is together
+  Vertical
+  alignSelf center
+  opacity 1
+  when <isBefore
+  opacity 0 easeOut
+    Subtitle
+    text Open views-patterns app in Finder. 
+    Subtitle
+    marginTop 8
+    text Look for sample-apps/views-patterns/src/DesignSystem/
+    HowToGraphics
+    marginTop 48
+    BackAction

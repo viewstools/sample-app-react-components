@@ -1,0 +1,13 @@
+CopySomething View
+is separate
+  ButtonTextIcon
+  text Click me to copy to clipboard
+  onClick <setFlowTo Content
+    DuplicateIcon
+    width 16
+    height 16
+    stroke rgb(0, 162, 255)
+    when <isHovered
+    stroke rgb(0, 191, 255)
+  No
+  Content

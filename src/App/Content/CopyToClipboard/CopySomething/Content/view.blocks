@@ -1,0 +1,11 @@
+Content View
+is together
+  CopyToClipboard
+  value copied
+  ToastConfirm
+  text Copied to clipboard!
+  top 20
+  left 45%
+  Timeout
+  delay 2000
+  onTimeout <setFlowTo ../No

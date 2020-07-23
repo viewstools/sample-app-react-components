@@ -1,0 +1,48 @@
+ToastConfirm Block
+  Horizontal
+  borderBottomLeftRadius 4
+  borderBottomRightRadius 4
+  borderTopLeftRadius 4
+  borderTopRightRadius 4
+  position absolute
+  paddingLeft 8
+  paddingRight 8
+  left < auto
+  top < auto
+  right < auto
+  bottom < auto
+  maxWidth 150
+  height 23
+  backgroundColor rgba(74,255,152, 0.3)
+  backdropFilter blur(15px)
+  shadowBlur 16
+  shadowColor rgba(0, 0, 0, 0.3)
+  shadowOffsetX 0
+  shadowOffsetY 8
+  shadowSpread 0
+  alignItems center
+  zIndex 1
+  translateY 0
+  opacity 1
+  when <isBefore
+  opacity 0 linear
+  translateY -10 easeOut
+    Check
+    marginRight 8
+    marginBottom 2
+    width 12
+    height 12
+    stroke rgba(74,255,152, 1)
+    Text
+    color rgba(74,255,152, 1)
+    fontFamily WonderUnitSans
+    fontSize 11
+    fontWeight 400
+    letterSpacing 0.5
+    textOverflow < ellipsis
+    whiteSpace < nowrap
+    overflowX < hidden
+    text <
+    textTransform < none
+
+

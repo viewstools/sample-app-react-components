@@ -1,0 +1,15 @@
+OpenDoodles View
+is together
+  Vertical
+  flexGrow 1
+  flexShrink 1
+  flexBasis auto
+  alignItems center
+  # justifyContent center
+    Vertical
+    width 400
+    height 400
+      LovingDoodle
+      ink #505050
+      accent #19d163
+    BackAction

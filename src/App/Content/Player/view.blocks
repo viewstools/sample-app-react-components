@@ -1,0 +1,15 @@
+Player View
+is together
+  Vertical
+  flexGrow 1
+  flexShrink 1
+  flexBasis auto
+  alignItems center
+  # justifyContent center
+    Player
+    light false
+    playing true
+    height 400
+    width 100%
+    url https://www.youtube.com/watch?v=4yKJE51x4Sg&feature=youtu.be
+    BackAction

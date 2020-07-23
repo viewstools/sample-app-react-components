@@ -1,0 +1,27 @@
+CardExample View
+  CardBase
+  onClick <
+    Vertical
+    onClick <
+    width 400
+    filter grayscale(50%)
+    zIndex 0
+    scale 1
+    when <isHovered
+    zIndex 1000
+    scale 1.02 easeOut
+    filter grayscale(0%) easeOut
+      Image
+      backgroundColor #303030
+      borderBottomLeftRadius 8
+      borderBottomRightRadius 8
+      borderTopLeftRadius 8
+      borderTopRightRadius 8
+      height auto
+      width 400
+      source ./source.jpg
+    Horizontal
+    alignItems center
+    height 36
+      Info
+      text Photo by Estúdio Bloom on Unsplash
